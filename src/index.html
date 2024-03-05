@@ -8,13 +8,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <form class="search-form" autocomplete="off">
+    <form action="submit" class="search-form" autocomplete="off">
       <label>
-        <input type="Search" name="search" placeholder="Search images..." />
+        <input
+          type="Search"
+          name="field"
+          placeholder="Search images..."
+          class="search-intup"
+        />
       </label>
-      <button type="submit" class="btn-submit">Submit</button>
+      <button type="submit" class="btn-submit">Search</button>
     </form>
-
+    <div class="loader hidden"></div>
+    <ul class="js-list"></ul>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
