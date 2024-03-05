@@ -32,10 +32,10 @@ export function createMarkup(obj) {
         </li>`);
        
 
-        
+        // list.innerHTML = markup.join('');
         form.reset();
         lightbox.refresh();
-        return 
+        return list.innerHTML = markup.join('');
     };    
     
 }
